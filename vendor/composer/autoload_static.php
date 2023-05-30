@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb628e5a3cd31e2f3b24a3d1b350d987f
+class ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74
 {
     public static $files = array (
         'd507e002f7fce7f0c6dbf1f22edcb902' => __DIR__ . '/..' . '/tracy/tracy/src/Tracy/functions.php',
@@ -679,9 +679,9 @@ class ComposerStaticInitb628e5a3cd31e2f3b24a3d1b350d987f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb628e5a3cd31e2f3b24a3d1b350d987f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb628e5a3cd31e2f3b24a3d1b350d987f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb628e5a3cd31e2f3b24a3d1b350d987f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74::$classMap;
 
         }, null, ClassLoader::class);
     }
