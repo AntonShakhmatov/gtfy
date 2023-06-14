@@ -7,6 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74
 {
     public static $files = array (
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'd507e002f7fce7f0c6dbf1f22edcb902' => __DIR__ . '/..' . '/tracy/tracy/src/Tracy/functions.php',
     );
 
@@ -14,10 +17,22 @@ class ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74
         'S' => 
         array (
             'Symfony\\Thanks\\' => 15,
+            'Solid\\Deepai\\' => 13,
+        ),
+        'P' => 
+        array (
+            'Psr\\Http\\Message\\' => 17,
+            'Psr\\Http\\Client\\' => 16,
         ),
         'O' => 
         array (
             'Orhanerday\\OpenAi\\' => 18,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'A' => 
         array (
@@ -30,9 +45,34 @@ class ComposerStaticInitb7bb488d8a7112eb2f4eb3a43b6caf74
         array (
             0 => __DIR__ . '/..' . '/symfony/thanks/src',
         ),
+        'Solid\\Deepai\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mkhab7/deepai/src',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+        ),
+        'Psr\\Http\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
         'Orhanerday\\OpenAi\\' => 
         array (
             0 => __DIR__ . '/..' . '/orhanerday/open-ai/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
         'App\\' => 
         array (

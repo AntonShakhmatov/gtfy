@@ -19,7 +19,8 @@
 		"nette/utils": "^4.0",
 		"latte/latte": "^3.0",
 		"tracy/tracy": "^2.9",
-		"orhanerday/open-ai": "^4.7"
+		"orhanerday/open-ai": "^4.7",
+		"mkhab7/deepai": "^1.0"
 	},
 	"require-dev": {
 		"nette/tester": "^2.4",

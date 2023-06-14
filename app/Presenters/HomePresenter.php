@@ -1,12 +1,27 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Presenters;
 
 use Nette;
+use Nette\Application\UI\Presenter;
+use App\Model\TranslatorModel;
 
-
-final class HomePresenter extends Nette\Application\UI\Presenter
-{
+class HomePresenter extends Presenter {
+    /**
+     * @param TranslatorModel 
+     */
+    private $model;
+    public function __construct(TranslatorModel $model){
+        $this->model = $model;
+    }
+    public function beforeRender() {
+    }
+    public function renderDefault() {
+        if(isset($_POST['user_message'])) {
+            $userMessage = $_POST['user_message'];
+            $lang = $_POST['lang'] ?? 'rus';
+            $bot = $this->model->getChatBot($userMessage, $lang);
+            echo $bot;
+        }
+    }
 }
