@@ -8,9 +8,6 @@ use Orhanerday\OpenAi\OpenAi;
 
 class TranslatorModel {
 
-    /**
-     * @param Explorer
-     */
     private $database;
     public function __construct(Explorer $database){
         $this->database = $database;

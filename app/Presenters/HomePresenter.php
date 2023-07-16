@@ -7,9 +7,7 @@ use Nette\Application\UI\Presenter;
 use App\Model\TranslatorModel;
 
 class HomePresenter extends Presenter {
-    /**
-     * @param TranslatorModel 
-     */
+
     private $model;
     public function __construct(TranslatorModel $model){
         $this->model = $model;
